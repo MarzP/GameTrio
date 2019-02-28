@@ -27,9 +27,10 @@ Which part took the most amount of time?
 - Debugging the asteroid respawn and destruction.
 - We also had issues with merging between cross-platform (mac/windows) even though it didn't matter in some past projects github just refused to merge anything.
 How did you break down the tasks? Explain what each person did on this project. (If it was primarily pair-programming that’s ok!)
+- Together in class: created the ground and a moving tank capable of shooting.
 - Jonathan: Exported/Imported the prefabs and scripts we wanted to use.
-- Maria: Got Github working for all of us
-- Marz: Changed the scripts and prefabs to work in a different setting.
+- Maria: Got Github working for all of us, recored the game as we couldn't build it for some reason, imported and implemented new materials and textures to make it pretty 
+- Marz: Changed the scripts and prefabs to work in a different setting. (respawning asteroids, displaying text, game over and restart, basically made the game work)
 How would you expand on this project if you had a week to work on it?
 - I would import different models for the tank and asteroids just to make it visually different from the tutorials we’ve worked on before.
 What part was the most difficult to implement and why?
