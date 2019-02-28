@@ -17,9 +17,11 @@ public class GameController : MonoBehaviour
     private int score;
     private bool restart;
     private bool gameOver;
+    private GameObject player;
 
     void Start()
     {
+       
         score = 0;
         restartText.text = "";
         gameOverText.text = "";

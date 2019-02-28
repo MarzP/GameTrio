@@ -85,4 +85,14 @@ public class TankHealth : MonoBehaviour
         // Turn the tank off.
         gameObject.SetActive (false);
     }
+
+    void OnTriggerEnter(Collider other) {
+        if (other.tag == "Boundary") {
+            return;
+        }
+        if (other.tag == "Asteroid") {
+            TakeDamage(50);
+        }
+        
+    }
 }
